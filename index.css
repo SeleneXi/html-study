@@ -1,0 +1,105 @@
+.top-headline h1{
+    position: absolute;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    float: left;
+    top: -5px;
+    padding-left: 100px;
+}
+
+.top-headline h1 a{
+    list-style: none;
+    text-decoration: none;
+    float: left;
+    color:inherit;
+}
+
+.top-headline h1.sample a:hover {
+    color: #30a9de;
+    transition : all 0.5s;
+}
+
+.top-headline h1.sample a {
+    padding: 10px;
+    position: relative;
+    text-align: center;
+    display: inline-block;
+    font-size: 30px;
+    font-weight: bold;
+}
+.top-headline h1.sample a::before {
+    content: "";
+    position: absolute;
+    left: 100%;
+    right: 100%;
+    bottom: 0;
+    height: 4px;
+    background-color: #30a9de;
+    -webkit-transition: left 0.2s ease, right 0.2s ease;
+    -moz-transition: left 0.2s ease, right 0.2s ease;
+    -o-transition: left 0.2s ease, right 0.2s ease;
+    transition: left 0.2s ease, right 0.2s ease;
+}
+.top-headline h1.sample a:hover::before {
+    left: 0;
+    right: 0;
+}
+
+.top-headline li{
+    position: relative;
+    list-style: none;
+    float: left;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    left: 650px;
+    margin-top: 21px;
+    margin-right: 50px;
+}
+
+.top-headline li a{
+    list-style: none;
+    text-decoration: none;
+    float: left;
+    color:inherit;
+}
+
+.top-headline li a:hover {
+    color: #30a9de;
+    transition : all 0.5s;
+}
+
+.top-headline li a {
+    padding: 10px;
+    position: relative;
+    text-align: center;
+    display: inline-block;
+    font-weight: bold;
+}
+.top-headline li a::before {
+    content: "";
+    position: absolute;
+    left: 100%;
+    right: 100%;
+    bottom: 0;
+    height: 4px;
+    background-color: #30a9de;
+    -webkit-transition: left 0.2s ease, right 0.2s ease;
+    -moz-transition: left 0.2s ease, right 0.2s ease;
+    -o-transition: left 0.2s ease, right 0.2s ease;
+    transition: left 0.2s ease, right 0.2s ease;
+}
+.top-headline li a:hover::before {
+    left: 0;
+    right: 0;
+}
+
+.top-bg{
+    height: 70px;
+    width: 100%;
+    background-color: black;
+    border: 1px solid gray;
+}
+
+.main-contents{
+    text-align: center
+}
